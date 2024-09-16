@@ -1,0 +1,63 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;}
+ .bg-dark {
+    background-color: #535c5b ;
+}
+
+section {
+  border: 4px solid black;
+
+  margin-left: 3%;
+  background-color: #41a3d1;
+
+  position: relative;
+}
+
+
+section a {
+  color: #dc143c;
+}
+
+section a:hover {
+  text-decoration: none;
+  color: #ffebcd;
+  background: #dc143c;
+  padding: 5px;
+}
+
+h2 {
+  position: absolute;
+  border: 2px solid black;
+  right: 0;
+  top: 0;
+  background: #ffb6c1;
+  padding: 1%;
+  margin-bottom: 2em;
+  width: 10rem;
+  text-align: center;
+}
+.poulet h2{background-color:#869aa3;}
+
+.viande h2 {
+  background-color: : #786987;
+}
+.sushi h2 {
+  background: #e2c483;
+}
+
+p {
+  padding: 15% 2% 1% 2%;
+}
+
+@media screen and (max-width: 991px) {
+  div {
+    margin-bottom: 10px;
+    margin-left: 0;
+  }
+
+  .sushi {
+    margin-left: 12px;
+  }
+}
